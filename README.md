@@ -1,8 +1,20 @@
 # Segmentation and Identification of Vertebrae in CT Scans using CNN, k-means Clustering and k-NN
-Code for the paper: Altini, N.; De Giosa, G.; Fragasso, N.; Coscia, C.; Sibilano, E.; Prencipe, B.; 
-Hussain, S.M.; Brunetti,A.; Buongiorno, D.; Guerriero, A.; Tatò I.S.; Brunetti, G.; Triggiani V.; 
-Bevilacqua, V. Segmentation and Identification of Vertebrae in CT Scans using CNN, k-means Clustering 
-and k-NN. Pending Minor Revisions at Informatics 2021, 1, 0.
+If you use this code for your research, please cite our [paper](https://doi.org/10.3390/informatics8020040):
+
+```
+@Article{informatics8020040,
+AUTHOR = {Altini, Nicola and De Giosa, Giuseppe and Fragasso, Nicola and Coscia, Claudia and Sibilano, Elena and Prencipe, Berardino and Hussain, Sardar Mehboob and Brunetti, Antonio and Buongiorno, Domenico and Guerriero, Andrea and Tatò, Ilaria Sabina and Brunetti, Gioacchino and Triggiani, Vito and Bevilacqua, Vitoantonio},
+TITLE = {Segmentation and Identification of Vertebrae in CT Scans Using CNN, k-Means Clustering and k-NN},
+JOURNAL = {Informatics},
+VOLUME = {8},
+YEAR = {2021},
+NUMBER = {2},
+ARTICLE-NUMBER = {40},
+URL = {https://www.mdpi.com/2227-9709/8/2/40},
+ISSN = {2227-9709},
+DOI = {10.3390/informatics8020040}
+}
+```
 
 Graphical Abstract:
 ![GraphicalAbstract](images/graphical_abstract.png)
