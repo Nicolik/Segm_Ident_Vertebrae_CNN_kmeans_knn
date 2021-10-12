@@ -7,7 +7,7 @@ from config.paths import base_dataset_dir
 def reorient_to_rai(image):
     """
     Reorient image to RAI orientation.
-    :param image: Input sitk image.
+    :param image: Input itk image.
     :return: Input image reoriented to RAI.
     """
     filter = itk.OrientImageFilter.New(image)
@@ -23,7 +23,7 @@ def reorient_to_rai(image):
 def smooth(image, sigma):
     """
     Smooth image with Gaussian smoothing.
-    :param image: sitk image.
+    :param image: itk image.
     :param sigma: Sigma for smoothing.
     :return: Smoothed image.
     """
@@ -39,7 +39,7 @@ def smooth(image, sigma):
 def clamp(image):
     """
     Clamp image between -1024 to 8192.
-    :param image: sitk image.
+    :param image: itk image.
     :return: Clamped image.
     """
     ImageType = itk.Image[itk.F, 3]
